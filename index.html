@@ -500,7 +500,6 @@ pages.about=()=>({title:'عن التحليل',back:'#/more',html:`
   ${D.bands.map(b=>`<tr><td><span style="display:inline-block;width:11px;height:11px;border-radius:3px;background:${css('--b'+b.key)};margin-inline-end:7px;vertical-align:-1px"></span>${b.name}</td><td>${N(fg(b.lo)+' – '+fg(b.hi))}</td></tr>`).join('')}</table></div>
   <details class="acc" open><summary>من هم الضعاف؟</summary><div class="body">من لم يبلغوا نصف الدرجة، أي من نالوا أقل من 7½ من 15. ويُقسمون إلى ضعف حاد (3½ فأقل) وضعف عام (4 إلى 7).</div></details>
   <details class="acc"><summary>من هم الفائقون؟</summary><div class="body">أصحاب الدرجة الكاملة 15، لأنها وحدها تعني إتقان الجزئيات الخمس عشرة كلها. ومن نال 13½ إلى 14½ متفوق.</div></details>
-  <details class="acc"><summary>كيف عولجت البيانات؟</summary><div class="body">فُرّغت الدرجات من كشوف المعلمين وطوبقت الأسماء على قائمة متعلمي المدرسة، وروجعت الكشوف المكتوبة باليد مرتين. الغائب لا يُعدّ صفرًا ولا يدخل الإحصاء، والمنتقل بين الشعب يُحسب في الشعبة التي اختُبر فيها. والفروق بين الشعب اختُبرت باختبارات لا معلمية (كروسكال–واليس ومان–ويتني). وأعدّ كل معلم اختبار شعبه، فالمقارنة بين الشعب تجمع أثر مستوى المتعلمين وأثر صعوبة الاختبار معًا.</div></details>
   <details class="acc"><summary>الخصوصية</summary><div class="body">لا يعرض الموقع اسم أي متعلم. الأسماء في النسخة المطبوعة من التقرير المرفوعة إلى الإدارة.</div></details>`});
 pages.more=()=>({title:'المزيد',tab:'more',html:`
   <div class="more-list">
